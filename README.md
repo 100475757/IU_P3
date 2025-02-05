@@ -8,7 +8,7 @@
 - 🎨 Estilos personalizados con **CSS**.
 - 🛠️ Funcionalidades interactivas mediante **JavaScript**.
 - 🎁 **Contenido dinámico según la edad del usuario**:
-  - Si la edad ingresada es **menor de 11 años**, se mostrarán secciones diseñadas para niños pequeños como **videollamada con papa noel o un juego iteractivo**.
+  - Si la edad ingresada es **menor de 11 años**, se mostrarán secciones diseñadas para niños pequeños como **videollamada con papa noel o un juego interactivo**.
   - Si la edad ingresada es **mayor de 11 años**, aparecerán secciones más orientadas a adultos, como **merchandising navideño y reservas de hoteles en lugares festivos**.
 
 ## 🏗️ Tecnologías Utilizadas
