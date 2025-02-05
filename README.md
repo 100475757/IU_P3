@@ -31,7 +31,7 @@ practicaIU/
 ## ▶️ Cómo Ejecutar
 1. Clona el repositorio o descarga el código fuente.
    ```bash
-   git clone https://github.com/tuusuario/tu-repo.git
+   git clone  https://github.com/100475757/IU_P3.git
    ```
 2. Abre el archivo `index.html` en un navegador web.
 
