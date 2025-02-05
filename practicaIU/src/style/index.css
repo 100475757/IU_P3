@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a5298; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Nieve */
+@keyframes snow {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+
+.snowflake {
+    position: fixed;
+    top: -10px;
+    left: calc(100% * var(--i));
+    font-size: calc(10px + var(--size) * 10);
+    animation: snow linear infinite;
+    animation-duration: calc(5s + var(--speed) * 5s);
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    z-index: 9999; 
+}
+.bolasfondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 40%; 
+    height: auto;
+    z-index: 1;
+}
+
+.papanoelfondo {
+    position: absolute;
+    bottom: 0; 
+    right: 0; 
+    max-width: 40%; 
+    height: auto;
+    z-index: 2; 
+}
+
+
+.container {
+    background-color: #335503;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    font-family: 'Pacifico', cursive;
+    color: gold;
+    text-shadow: 0 4px 8px rgba(255, 223, 0, 0.8), 0 -2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.buttons {
+    margin-bottom: 20px;
+    
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #8B0000;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+}
+button:hover {
+    background-color: #FF4500;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
